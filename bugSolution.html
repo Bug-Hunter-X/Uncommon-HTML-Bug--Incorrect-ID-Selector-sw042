@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv1">
+    <p>This is some text.</p>
+  </div>
+
+  <script>
+    //Correct way to access element with valid ID
+    document.getElementById("myDiv1").innerHTML = "This text is now changed.";
+  </script>
+</body>
+</html>
